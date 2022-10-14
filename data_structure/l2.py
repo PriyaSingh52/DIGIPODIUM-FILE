@@ -16,20 +16,20 @@ y=l.append(["nikita","priya"])
 print(y)
 
 # Extend function-
-fruits = ['Apple','Banana','Cherry', 'Guava']
+fruits = ['Apple','Banana', 'Orange','Pear', 'Grape']
 dry_fruits = ['Almond','cashew', 'Pistachio','Walnut']
 print(len(fruits))
 fruits.append(dry_fruits)
 print(fruits)
 
 # sort function-
-fruits = ['Cherry','Guava','Apple', 'Banana']
+fruits = ['Cherry','Grape','Apple', 'Banana']
 fruits.sort()
 print(fruits)
 
 # Remove function-
 fruits = ['Cherry','Guava','Apple', 'Banana','Grapes']
 fruits.remove('Cherry')
-fruits.pop(3)
-fruits.pop()
+fruits.pop(3) # remove element by index
+fruits.pop()   # remove last element (default)
 print(fruits)

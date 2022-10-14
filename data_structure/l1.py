@@ -1,6 +1,3 @@
-from xml.dom.minidom import Element
-
-
 elements = ["Hydrogen","Helium","Lithium"]
 print(elements)
 print('Individual elements:')
@@ -15,6 +12,7 @@ elements[1] = "Carbon"
 print(elements)
 
 print(elements, elements,elements,sep="\n")
+
 
 
 
